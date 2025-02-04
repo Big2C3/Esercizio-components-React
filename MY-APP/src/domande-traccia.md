@@ -12,3 +12,9 @@ Il messaggio "What a beautiful day!" sarà mostrato separatamente da ""Hello, qu
 
 Cambia la porta predefinita di Vite su 3000 modificando il file vite.config.js.
 Eseguito con successo.
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server: { port: 3000 }, //Cambia la porta a 3000
+});
