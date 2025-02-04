@@ -6,7 +6,6 @@ export function App() {
             <Hello />
             <hr />
             <Hello />  {/* il componente hallo viene usato più volte*/}
-            <Message /> {/* ho renderizzato "Message" in App */}
         </div>
     )
 }
